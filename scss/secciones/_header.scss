@@ -1,0 +1,17 @@
+@import '../paleta';
+@import '../text';
+
+header{ 
+    nav{
+    background-color: $color-primario;
+    
+    a:link, a:visited {
+    color:$color-secundario;
+    text-decoration: none;
+    margin: 10px;
+  }
+  a:hover{
+      color:$color-teciario ;
+  }
+}
+}

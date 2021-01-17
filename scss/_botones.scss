@@ -1,0 +1,39 @@
+@import 'paleta';
+@import 'text';
+
+button{
+    background-color: $color-teciario;
+    border: none;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 10px 20px;
+
+    img{
+        width: 50px;
+    }
+
+}
+.boton-contacto{
+    background-color: $color-secundario;
+    border: none;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px 20px;
+
+}
+
+button:hover, 
+a img:hover{
+    transform: scale(1.05);
+}
+
+.boton-top{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+    color: $color-primario;
+    
+
+}

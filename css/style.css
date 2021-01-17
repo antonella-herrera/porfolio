@@ -1,0 +1,568 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*import basicos*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  color: #D8BFD8;
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  color: #D8BFD8;
+  font-size: 34px;
+  -webkit-text-stroke: 1px #D8BFD8;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.incio-p-sobretitulo {
+  color: #ffff;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  color: #D8BFD8;
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  color: #D8BFD8;
+  font-size: 34px;
+  -webkit-text-stroke: 1px #D8BFD8;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.incio-p-sobretitulo {
+  color: #ffff;
+}
+
+button {
+  background-color: #D8BFD8;
+  border: none;
+  margin: 10px;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+button img {
+  width: 50px;
+}
+
+.boton-contacto {
+  background-color: #ffff;
+  border: none;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+button:hover,
+a img:hover {
+  transform: scale(1.05);
+}
+
+.boton-top {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-decoration: none;
+  color: #000111;
+}
+
+/*import-secciones*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  color: #D8BFD8;
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  color: #D8BFD8;
+  font-size: 34px;
+  -webkit-text-stroke: 1px #D8BFD8;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.incio-p-sobretitulo {
+  color: #ffff;
+}
+
+header nav {
+  background-color: #000111;
+}
+header nav a:link, header nav a:visited {
+  color: #ffff;
+  text-decoration: none;
+  margin: 10px;
+}
+header nav a:hover {
+  color: #D8BFD8;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  color: #D8BFD8;
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  color: #D8BFD8;
+  font-size: 34px;
+  -webkit-text-stroke: 1px #D8BFD8;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.incio-p-sobretitulo {
+  color: #ffff;
+}
+
+#inicio {
+  background-color: #000111;
+  height: 100vh;
+}
+
+.p-dg-dw {
+  color: #ffff;
+  size: 20px;
+  text-align: center;
+}
+
+.incio-h2 {
+  color: #ffff;
+  text-align: center;
+}
+
+.inico-botones {
+  display: flex;
+}
+
+.inico-h2 {
+  font-size: 5em;
+}
+
+.inicio-p {
+  color: #ffff;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  color: #D8BFD8;
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  color: #D8BFD8;
+  font-size: 34px;
+  -webkit-text-stroke: 1px #D8BFD8;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.incio-p-sobretitulo {
+  color: #ffff;
+}
+
+.h2-nombre {
+  color: #D8BFD8;
+}
+
+#porfolio {
+  background-color: #000111;
+}
+#porfolio img {
+  margin: 15px;
+}
+
+#skills {
+  background-color: #000111;
+}
+#skills .skills-h3 {
+  color: #ffff;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  color: #D8BFD8;
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  color: #D8BFD8;
+  font-size: 34px;
+  -webkit-text-stroke: 1px #D8BFD8;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.incio-p-sobretitulo {
+  color: #ffff;
+}
+
+form input[type=text],
+form input[type=email] {
+  padding: 10px 20px;
+  font-size: 14px;
+  margin: 10px 0;
+  border: 1px solid #D8BFD8;
+}
+form input[type=submit] {
+  border: none;
+  background-color: #D8BFD8;
+  padding: 5px;
+  border-radius: 5px;
+}
+form input[type=submit]:hover {
+  transform: scale(1.02);
+  border-radius: 5px;
+}
+form textarea {
+  padding: 70px 20px;
+  font-size: 14px;
+  margin: 30px 0;
+  border: 1px solid #D8BFD8;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  color: #D8BFD8;
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  color: #D8BFD8;
+  font-size: 34px;
+  -webkit-text-stroke: 1px #D8BFD8;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.incio-p-sobretitulo {
+  color: #ffff;
+}
+
+.firma-de-cierre {
+  font-weight: lighter;
+  font-size: 14px;
+  color: #ffff;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+  background-color: #000111;
+  color: #D8BFD8;
+}
+footer nav {
+  margin: 20px;
+}
+footer nav a img:hover {
+  transform: scale(1.05);
+  text-align: center;
+}
+footer nav a img {
+  height: 20px;
+  text-decoration: none;
+  margin: 10px;
+}
+footer a:link, footer a:visited {
+  text-decoration: none;
+  color: #ffff;
+}
+footer a:hover {
+  color: #D8BFD8;
+}
+
+.creditos {
+  font-size: 14px;
+  font-weight: lighter;
+  color: #ffff;
+}
+
+/*import-secciones-porfolio*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  color: #D8BFD8;
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  color: #D8BFD8;
+  font-size: 34px;
+  -webkit-text-stroke: 1px #D8BFD8;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.incio-p-sobretitulo {
+  color: #ffff;
+}
+
+.inicio-pag-porfolio {
+  background-color: #000111;
+}
+.inicio-pag-porfolio p {
+  color: #ffff;
+}
+
+.incio-pofolio-h2 {
+  white-space: pre-line;
+}
+
+.inicio-porfolio-img {
+  border-radius: 0%;
+}
+
+.texto-carrucel {
+  padding: 20px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.porfolio-paginas {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  flex-direction: column;
+  text-align: center;
+}
+.porfolio-paginas img {
+  margin: 40px auto;
+  width: 70%;
+}
+
+/*nurvo*/
+.porfolio-carrusel {
+  width: 100%;
+}
+
+.seccion-de-carrusel {
+  padding: 0;
+  margin: 0;
+}
+
+.carrusel-img {
+  border-radius: 0px;
+}
+
+#porfolio-mh-incio {
+  background-color: #000111;
+}
+
+.h2-porfolio {
+  color: #D8BFD8;
+}
+
+@media only screen and (max-width: 576px) {
+  .textos-incio {
+    margin: 10px;
+    padding: 10px;
+  }
+}
+.textos-incio {
+  padding: 20px;
+}
+
+.fade-in-bottom {
+  -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-1-16 17:19:41
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation fade-in-bottom
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/*resposive*/
+@media only screen and (max-width: 576px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .inico-h2 {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  .inico-h2 {
+    font-size: 3em;
+  }
+}
+section {
+  padding: 70px;
+}
+
+section img {
+  border-radius: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

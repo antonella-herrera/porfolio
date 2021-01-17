@@ -1,0 +1,31 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    }
+    h1{
+        font-weight: 700;
+        color: $color-teciario;
+        font-size: 5em ;
+    }
+    h2{
+        font-size: 40px;
+        margin: 0 0 20px 0;
+        color: $color-teciario;
+        font-size: 34px;
+        -webkit-text-stroke: 1px $color-teciario;
+        -webkit-text-fill-color:transparent;
+        font-weight: 700;
+    }
+
+    h2{
+        font-size: 40px;
+        margin: 0 0 20px 0;
+    }
+    
+    h3{
+        font-size: 20px;
+        margin: 20px 0;
+    
+    }
+    .incio-p-sobretitulo {
+        color: $color-secundario;
+    }

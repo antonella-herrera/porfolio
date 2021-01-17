@@ -1,0 +1,32 @@
+@import '../text';
+@import '../paleta';
+
+#inicio{
+    background-color:$color-primario;
+    height: 100vh;
+    
+
+}
+
+.p-dg-dw{ 
+    color:$color-secundario;
+    size: 20px;
+    text-align: center;
+}
+.incio-h2{
+    color:$color-secundario;
+    text-align: center;
+}
+
+.inico-botones{
+    display: flex;
+}
+
+.inico-h2{
+    font-size: 5em ;
+
+}
+
+.inicio-p{
+    color:$color-secundario;
+}

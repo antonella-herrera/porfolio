@@ -1,0 +1,80 @@
+@import '../text';
+@import '../paleta';
+
+.inicio-pag-porfolio{
+    background-color: $color-primario;
+    p{
+        color:$color-secundario;
+    }
+}
+
+.incio-pofolio-h2{
+    white-space: pre-line;
+}
+.inicio-porfolio-img{
+    border-radius: 0%;
+}
+
+.texto-carrucel {
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.porfolio-paginas {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    flex-direction: column;
+    text-align: center;
+    
+    img{
+        margin: 40px auto;
+        width: 70%;
+    }  
+}
+/*nurvo*/
+.porfolio-carrusel{
+    width: 100%;
+}
+.seccion-de-carrusel{
+    padding: 0;
+    margin: 0;
+}
+
+.carrusel-img{
+    border-radius: 0px;
+}
+
+#porfolio-mh-incio{
+    background-color: $color-primario;
+}
+.h2-porfolio{
+    color:  #D8BFD8;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .textos-incio{
+        margin: 10px;
+        padding: 10px;
+
+    }
+
+
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+
+    .textos-incio{
+
+    }
+
+}
+
+.textos-incio{
+    padding: 20px;
+
+}

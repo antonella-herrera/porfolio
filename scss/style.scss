@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*import basicos*/
+@import 'paleta';
+@import 'text';
+@import 'botones';
+
+
+
+/*import-secciones*/
+@import 'secciones/header';
+@import 'secciones/incio';
+@import 'secciones/sobremi';
+@import 'secciones/porfolio';
+@import 'secciones/skills';
+@import 'secciones/contacto';
+@import 'secciones/footer';
+
+/*import-secciones-porfolio*/
+@import 'secciones/paginasporfolio';
+
+
+@import 'animaciones';
+
+/*resposive*/
+@import 'resposive';
+
+section{
+    padding:70px;
+}
+section{
+img{
+    border-radius:50px;
+}
+}

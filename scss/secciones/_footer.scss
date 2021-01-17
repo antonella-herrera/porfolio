@@ -1,0 +1,46 @@
+@import '../text';
+@import '../paleta';
+
+
+.firma-de-cierre{
+    font-weight: lighter;
+    font-size: 14px;
+    color: $color-secundario;
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color: $color-primario;
+    color: $color-teciario;
+
+    nav{
+        margin: 20px;
+        a {
+            img:hover{
+                transform: scale(1.05);
+                text-align: center;
+            
+            }
+
+            img{
+            height: 20px;
+            text-decoration: none;
+            margin: 10px;       
+            }
+        }
+    }
+
+    a:link, a:visited{
+        text-decoration: none;
+        color:$color-secundario;
+    }
+    a:hover {
+        color:$color-teciario;
+    }
+}
+.creditos{
+    font-size: 14px;
+    font-weight: lighter;
+    color: $color-secundario;
+}
