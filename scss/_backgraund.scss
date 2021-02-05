@@ -1,0 +1,49 @@
+#inicio {
+    background-image: url(../imagenes/INDEX/fondo-inico.jpg);
+    position: relative;
+}
+
+#inicio-sistemas-baja-complejidad {
+    background-image: url(../imagenes/porfolio-mindhunter/portada-mindhunter.jpg);
+
+}
+
+#inicio-tipografia-sistemas-visuales{
+    background-image: url(../imagenes/porfolio-desechando-habitos/web-responsive-desechando-habitos.jpg);
+}
+#tipografia-interfaces{
+    background-image: url(../imagenes/porfolio-rompiendo-moldes/mockup-resposive-web-movile-rompiendo-moldes.jpg);
+    
+}
+#interfaces-espaciales{
+    background-image: url(../imagenes/Porfolio-interfaces/portada-interfaces-espaciales-loginotti.jpg);
+
+}
+.inicos-de-landing{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        height: 100vh;
+        text-align: center;
+        div{
+          justify-content: center;
+        }
+        h2{
+          font-size: 3em;
+        }    
+    }
+
+    .backgraunds {
+        background-size: cover;
+        background-position: center;
+        max-width: 100%;
+        height: 100vh;
+    }
+
+    .fondo-rosa{
+        background-color:$color-teciario;
+        h3{
+            color: black;
+        }
+    }

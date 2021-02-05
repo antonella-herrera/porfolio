@@ -1,10 +1,24 @@
 @import '../paleta';
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
 
 #skills{
-    background-color: $color-primario;
-    .skills-h3{color:$color-secundario ;
+        background-color: $color-primario;
+        padding-top: 20px;
 
-    }
-    
 
+ h3{
+     color: $color-secundario;
+     font-weight: 500;
+
+ }
+}
+.skills-img{
+    width: 70px;
 }

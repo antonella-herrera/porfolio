@@ -1,19 +1,15 @@
-@import 'paleta';
-@import 'text';
-
-button{
+button {
     background-color: $color-teciario;
     border: none;
     margin: 10px;
-    border-radius: 30px;
     padding: 10px 20px;
-
-    img{
+    img {
         width: 50px;
     }
 
 }
-.boton-contacto{
+
+.boton-contacto {
     background-color: $color-secundario;
     border: none;
     margin: 10px;
@@ -22,18 +18,54 @@ button{
 
 }
 
-button:hover, 
-a img:hover{
+.botom-blanco {
+    background-color: $color-secundario;
+
+    a:link,
+    a:visited {
+        color: $color-primario;
+        text-decoration: none;
+    }
+}
+
+.botom-negro {
+    background-color: $color-primario;
+    a{
+        color: $color-teciario;
+    }
+
+    a:link,
+    a:visited {
+        text-decoration: none;
+    }
+}
+
+.botom-rosa {
+
+    a:link,
+    a:visited {
+        color: $color-primario;
+        text-decoration: none;
+    }
+}
+
+button:hover {
     transform: scale(1.05);
 }
 
-.boton-top{
+.boton-top {
     display: flex;
     position: fixed;
     bottom: 0;
     right: 0;
     text-decoration: none;
     color: $color-primario;
-    
 
+
+}
+
+a{ 
+    img:hover{
+        transform: scale(1.05);
+    }
 }

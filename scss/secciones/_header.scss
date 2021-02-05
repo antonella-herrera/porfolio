@@ -1,10 +1,8 @@
-@import '../paleta';
-@import '../text';
 
 header{ 
+  display: flex;
     nav{
-    background-color: $color-primario;
-    
+    background-color: $color-primario;    
     a:link, a:visited {
     color:$color-secundario;
     text-decoration: none;
@@ -12,6 +10,11 @@ header{
   }
   a:hover{
       color:$color-teciario ;
+  }
+}
+a{
+  img{
+    margin: 0;
   }
 }
 }

@@ -1,7 +1,18 @@
-@import '../paleta';
-@import '../text';
 
-.h2-nombre{
-    color: $color-teciario;
+
+.columna-texto-sobremi{
+    padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+}
+.columna-imagen-sobremi{
+    padding: 50px;
+}
+.img-sobremi{
+    width: 400px;
+}
+
+#sobre-mi{
+    background-color: $color-teciario;
 }
 

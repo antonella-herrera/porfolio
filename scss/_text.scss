@@ -1,31 +1,30 @@
 body{
     font-family: 'Montserrat', sans-serif;
     }
+
     h1{
-        font-weight: 700;
-        color: $color-teciario;
+        font-weight: 900;
+        color: $color-primario;
         font-size: 5em ;
-    }
-    h2{
-        font-size: 40px;
-        margin: 0 0 20px 0;
-        color: $color-teciario;
-        font-size: 34px;
-        -webkit-text-stroke: 1px $color-teciario;
-        -webkit-text-fill-color:transparent;
-        font-weight: 700;
     }
 
     h2{
-        font-size: 40px;
-        margin: 0 0 20px 0;
+        font-size: 2em;
+        font-weight: 600;
+        margin-bottom:10px ;
     }
     
     h3{
-        font-size: 20px;
-        margin: 20px 0;
+        font-size: 1em;
+        margin: 50px 0;
     
     }
-    .incio-p-sobretitulo {
+
+    .index-h2{ 
+        text-align: center;
+        padding: 20px;
+    }
+    .h-blanco{
         color: $color-secundario;
+        padding: 20px 0 30px 0;
     }

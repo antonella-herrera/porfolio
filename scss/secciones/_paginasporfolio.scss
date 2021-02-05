@@ -1,63 +1,117 @@
-@import '../text';
-@import '../paleta';
+.porfolio-img-logo {
+    width: 500px;
 
-.inicio-pag-porfolio{
-    background-color: $color-primario;
-    p{
-        color:$color-secundario;
+}
+
+.inicio-porfolio{
+    h2{
+        font-weight: 700;
+        
+    }
+    h3{
+        font-weight: 600;
+    
     }
 }
 
-.incio-pofolio-h2{
-    white-space: pre-line;
-}
-.inicio-porfolio-img{
-    border-radius: 0%;
-}
-
-.texto-carrucel {
-    padding: 20px 80px;
+.columna-texto-porfolio {
+    padding: 20px 50px;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
 
 }
 
-.porfolio-paginas {
+/*nurvo*/
+
+.frase-final-porfolio {
+    text-align: center;
+    padding: 50px;
+
+    a {
+        img:hover {
+            transform: scale(1.05);
+            text-align: center;
+
+        }
+
+        img {
+            height: 30px;
+        }
+    }
+
+}
+
+.rompiendo-moldes {
+    background-color: #1e1f3d;
+    color: $color-secundario
+}
+
+
+.desechando-habitos {
+    background-color: #E6E6E6;
+    color: $color-primario;
+}
+
+.mindHunter,
+.el-laberinto {
+    background-color: $color-primario;
+    color: $color-secundario;
+}
+
+
+
+.columan-imagenes-porfolio {
     display: flex;
     justify-content: center;
-    padding: 50px;
-    flex-direction: column;
-    text-align: center;
-    
-    img{
-        margin: 40px auto;
-        width: 70%;
-    }  
+
 }
-/*nurvo*/
-.porfolio-carrusel{
+
+a {
+    img {
+        height: 50px;
+    }
+}
+
+
+
+
+.cierra-de-porfolio {
+    background-color: $color-primario;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+.h-blanco,
+.p-blanco {
+    color: $color-secundario;
+
+}
+
+.tarjetas-rosas {
+    background-color: $color-teciario;
+    padding: 30px 40px;
+}
+
+.tarjetas-blancas {
+    background-color: $color-secundario;
+    padding: 30px 40px;
+
+}
+
+.image-posters {
+    margin: 0;
+    padding: 0;
     width: 100%;
 }
-.seccion-de-carrusel{
-    padding: 0;
+
+.imagenes-tarjetas{ 
     margin: 0;
-}
-
-.carrusel-img{
-    border-radius: 0px;
-}
-
-#porfolio-mh-incio{
-    background-color: $color-primario;
-}
-.h2-porfolio{
-    color:  #D8BFD8;
 }
 
 @media only screen and (max-width: 576px) {
 
-    .textos-incio{
+    .textos-incio {
         margin: 10px;
         padding: 10px;
 
@@ -68,13 +122,11 @@
 
 @media only screen and (min-width: 577px) and (max-width: 768px) {
 
-    .textos-incio{
-
-    }
+    .textos-incio {}
 
 }
 
-.textos-incio{
+.textos-incio {
     padding: 20px;
 
 }

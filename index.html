@@ -8,7 +8,8 @@
   <!--Required meta tags-->
 
   <!--SEO-->
-  <meta name="description" content="Antonella Herrera es una estudiante de diseño gráfico & front-end website, de Buenos Aires. Portfolio de diseño, trabajos universitarios.">
+  <meta name="description"
+    content="Antonella Herrera es una estudiante de diseño gráfico & front-end website, de Buenos Aires. Portfolio de diseño, trabajos universitarios.">
   <meta name="keywords" content="Front end Desarollo web Diseño grafico freelance Porfolio">
   <meta name="author" content="Antonella Herrera">
   <!--FIN DE SEO-->
@@ -17,59 +18,60 @@
   <meta property="og:locale" content="es_ES">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Antonella Herrera">
-  <meta property="og:description" content="Antonella Herrera es una estudiante de diseño gráfico & front-end website, de Buenos Aires. Portfolio de diseño, trabajos universitarios.">
-  <meta property="og:url" content="https://antonella-herrera.github.io/web-coder/"><!--aca en su momento iria la url real-->
+  <meta property="og:description"
+    content="Antonella Herrera es una estudiante de diseño gráfico & front-end website, de Buenos Aires. Portfolio de diseño, trabajos universitarios.">
+  <meta property="og:url" content="https://antonella-herrera.github.io/web-coder/">
+  <!--aca en su momento iria la url real-->
   <meta property="og:image" content="imagenes/imagen1">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="600">
   <!-- Fin Open Graph-->
 
   <!--Linsk Bootstrap-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
-    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!--font-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,300;1,600&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
     rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
-    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" 
-    crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
-    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" 
-    crossorigin="anonymous">
-  </script>
-  <!-- fin link Bootstrap-->
-  
+
+
+
+
   <!--CSS-->
   <link rel="stylesheet" href="css/style.css">
+
+
 
   <title>Antonella Herrera</title>
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top header-navmenu">
+    <nav class="navbar navbar-expand-lg navbar-dark header-navmenu fixed-top">
       <a href="index.html">
         <img src="iconosylogo/logo.svg" width="30" height="30" alt="Logo">
       </a>
       <!--Menu-->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav menu">
           <li>
             <a href="index.html#inicio" class="nav-a">Incio</a>
           </li>
           <li>
-            <a href="index.html#sobre-mi "class="nav-a">Sobre mi</a>
+            <a href="index.html#sobre-mi " class="nav-a">Sobre mi</a>
           </li>
           <li>
-            <a href="index.html#porfolio"class="nav-a dropdown">Porfolio</a>
+            <a href="index.html#porfolio" class="nav-a dropdown">Porfolio</a>
           </li>
           <li>
-            <a href="index.html#skills"class="nav-a">Skills</a>
+            <a href="index.html#skills" class="nav-a">Skills</a>
           </li>
           <li>
             <a href="index.html#contacto" class="nav-a">Contacto</a>
@@ -80,160 +82,211 @@
     </nav>
   </header>
 
+  <!--Inicio-->
+  <section id="inicio" class="inicos-de-landing backgraunds">
+    <div>
+      <h1>DISEÑO GRÁFICO </h1>
+      
+      <p class="p-inico">Antonella Herrera</p>
 
-  <!--Incio-->
-  <section id="inicio">
-    <P class="inicio-p">Porfolio 2021</P>
-    <h1 >DISEÑO GRAFICO</h1>
-    <h2 class="inico-h2">MAQUETACION WEB</h2>
-    <div class="inico-botones d-flex flex-wrap">
-      <a href="#sobre-mi">
-        <button>Conoceme</button>
-      </a>
-      <a href="#contacto">
-        <button class="boton-contacto">Contactame</button>
-      </a>
+      <div class="d-flex div-inico-botones">
+        <button class="botom-rosa">
+          <a href="#sobre-mi">Conoceme</a>
+        </button>
+
+        <button class="botom-negro ">
+          <a href="#contacto">Contactame</a>
+        </button>
+      </div>
     </div>
   </section>
-  <!--Fin-de-Incio-->
 
 
   <!--Sobre-mi-->
-  <section id="sobre-mi" >
-    <div class="container fade-in-bottom">
+  <section id="sobre-mi">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <img src="imagenes/imagen1.jpg" alt="Foto de Antonella Herrera en blanco y negro" class="img-fluid" id="Imgenen-sobre-mi">
+
+        <!--Imagenes sobre mi-->
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 columna-imagen-sobremi">
+          <img src="imagenes/imagen1.jpg" alt="Foto de Antonella Herrera" class="img-fluid img-sobremi">
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-wrap flex-column">
+
+        <!--coluna de texto-->
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-wrap flex-column columna-texto-sobremi">
           <h2> Hola! Soy</h2>
-          <h2 class="h2-nombre">Anto Herrera</h2>
-        
+          <h2>Anto Herrera</h2>
+
           <p>Soy una estudiante de diseño gráfico, creativa y responsable.
-            Me considero una joven que adora superar retos y no se rinde facilmente. 
-            Ademas muy detallista y autodidacta. Buena para el trabajo en equipo y 
+            Me considero una joven que adora superar retos y no se rinde facilmente.
+            Ademas muy detallista y autodidacta. Buena para el trabajo en equipo y
             dipuesta a seguir aprendiendo.</p>
+
+          <!--botones-->
+          <div class="d-flex">
             <a href="#porfolio">
-              <button>Mis trabajos</button> 
+              <button class="botom-blanco">Mis trabajos</button>
+              
+                <button class="botom-negro">
+                  <a href="#footer">Mis redes</a>  
+                </button>
+              
             </a>
+          </div>
         </div>
-      </div>
-    </div>
-    
   </section>
-  <!--Fin-de-Sobre-mi-->
+  <section>
 
-  <span>
-    <a href="#inicio" class="boton-top"><button>^</button></a>
-  </span>
+    <!--Fin-de-Sobre-mi-->
 
 
-  <!--Porfolio-->
-  <section id="porfolio">
-    <h2 class="fade-in-bottom">Porfolio</h2>
-    <div class="container fade-in-bottom">
-      <div class="row d-flex justify-content-center">
-        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
-          <a href="interfaces-espaciales.html">
-            <!--SEO-->
-            <img src="imagenes/Porfolio-01b.jpg" alt="Enlace para dirigirse al link del proyecto El Laberinto" class="img-fluid">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-          <a href="interfaces-espaciales.html">
-            <!--SEO-->
-            <img src="imagenes/Porfolio-02.jpg" alt="Enlace para dirigirse al link del proyecto El día de la Bestia" class="img-fluid">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-          <a href="interfaces-espaciales.html">
-            <!--SEO-->
-            <img src="imagenes/mind-hunter2.jpg" alt="Enlace para dirigirse al link del proyecto MindHunter" class="img-fluid">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-          <a href="interfaces-espaciales.html">
-            <!--SEO-->
-            <img src="imagenes/CRONOGRAMA-1.jpg" alt="Enlace para dirigirse al link del proyecto Desehcando hábitos" class="img-fluid">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--Fin-de-Porfolio-->
-
-
-  <!--Skills-->
-  <section id="skills">
-    <h2 class="fade-in-bottom">Skills</h2>
-    <div class="d-flex justify-content-around flex-wrap fade-in-bottom">
-        <div class="skills">
-          <!--SEO-->
-          <img src="skills/photoshop.svg" width="70" alt="Logo de Phtoshop, programa de edición de fotografías" class="skills-img">
-          <h3 class="skills-h3">Photoshop</h3>
-        </div>
-
-        <div  class="skills">
-          <!--SEO-->
-          <img src="skills/lightroom.svg" width="70" alt="Logo de Ligthroom, programa de edición de fotografías" class="skills-img" >
-          <h3 class="skills-h3">Lightroom</h3>
-        </div>
-
-        <div class="skills">
-          <!--SEO-->
-          <img src="skills/ilustrador.svg" width="70" alt="Logo de Ilustraitor, programa de diseño con vecctores" class="skills-img">
-          <h3 class="skills-h3">Ilustraitor</h3>
-          
-        </div>
-
-        <div class="skills">
-          <!--SEO-->
-          <img src="skills/indesign.svg" alt="Logo de Indesing, programa de edicion editorial" width="70">
-          <h3 class="skills-h3">Indesing</h3>
-        </div>
-    </div>
-
-  </section>
-  <!--Fin-de-Skills-->
-
-  <!--Contacto-->
-  <section id="contacto">
-    <div class="container fade-in-bottom">
-      <form action="">
+    <!--Skills-->
+    <section id="skills">
+      <h2 class="index-h2 h-blanco">SKILLS</h2>
+      <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column">
-            <h2>Contacto</h2>
-            <p>No dudes en contactarme! </p>
-
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
-            
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="ejemplo@mail.com">
-
-            <label for="asunto">Asunto</label>
-            <input type="text" name="asunto" id="asunto" placeholder="Asunto">
-
+          <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 skills">
+            <img src="skills/photoshop.svg" alt="Logo de Phtoshop, programa de edición de fotografías"
+              class="skills-img">
+            <h3>Photoshop</h3>
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column" >
+          <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 skills">
+            <img src="skills/ilustrator.svg" width="70" alt="Logo de Ilustraitor, programa de diseño con vecctores"
+              class="skills-img">
+            <h3>Ilustraitor</h3>
+          </div>
 
-            <label for="mensjae">Mensaje</label>
-            <textarea type="text" name="mensaje" id="mensaje"></textarea>
+          <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 skills">
+            <img src="skills/html.svg" alt="Logo de Html5" class="skills-img">
+            <h3>Html</h3>
+          </div>
 
-            <input type="submit" name="Enviar" class="boton">
+          <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 skills">
+            <img src="skills/css.svg" alt="Logo de Css" class="skills-img">
+            <h3>Css</h3>
+          </div>
 
+          <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 skills ">
+            <img src="skills/bootstrap.svg" alt="Logo de Css" class="skills-img">
+            <h3>Bootstrap</h3>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 skills ">
+            <img src="skills/sass.svg" alt="Logo de Css" class="skills-img">
+            <h3>Sass</h3>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <!--Fin-de-Skills-->
+
+
+    <!--Porfolio-->
+    <section id="porfolio">
+      <h2 class="index-h2 h-blanco">PORFOLIO</h2>
+      <div class="container">
+        <div class="row">
+          <!--Carrusel-->
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-wrap flex-column ">
+            <div id="carouselporfolio" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="imagenes/INDEX/Mockupcelular-tipografia-cosgaya-instagram.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="imagenes/INDEX/Mockup-rompiendo-moldes.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="imagenes/INDEX/Mockup-laberinto.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="imagenes/INDEX/Mockup-minhunter.jpg" alt="Second slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselporfolio" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+              </a>
+              <a class="carousel-control-next" href="#carouselporfolio" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+              </a>
+            </div>
+
+          </div>
+          <!--Fin Carrusel-->
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <a href="interfaces-espaciales.html">
+              <img src="imagenes/INDEX/interfaces-espaciales-link.jpg"
+                alt="Link para dirigirse al trabajo: interfaces espaciales (el laberinto)."
+                class="img-fluid d-block w-100">
+            </a>
+
+            <a href="sistema-baja-complejidad.html">
+              <img src="imagenes/INDEX/sitemas-baja-complejidad-link.jpg"
+                alt="Link para dirigirse al trabajo: sitemas de baja complejidad(mindhunter)"
+                class="img-fluid d-block w-100 image">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
+            <a href="tipografia-interfaces.html">
+              <img src="imagenes/INDEX/tipografiaas-interfaces-link.jpg"
+                alt="Link para dirigirse al trabajo: tipografía e interfaces (Rompiendo Moldes)"
+                class="img-fluid d-block w-100">
+            </a>
+            <a href="tipografia-sistemas-identidad-visual.html">
+              <img src="imagenes/INDEX/tipografias-sitemas-visuales-link.jpg"
+                alt="Link para dirigirse al trabajo: tipografía y sitemas visuales de identidad (Desechando hábitos)"
+                class="img-fluid d-block w-100">
+            </a>
           </div>
         </div>
-      </form>
-    </div>
-  </section>
+    </section>
+    <!--Fin-de-Porfolio-->
+
+
+    <!--Contacto-->
+    <section id="contacto">
+      <h2 class="index-h2">Contacto</h2>
+      <div class="container fade-in-bottom">
+        <form action="">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column columnas-contacto">
+
+              <p>No dudes en contactarme! </p>
+
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="ejemplo@mail.com">
+
+              <label for="asunto">Asunto</label>
+              <input type="text" name="asunto" id="asunto" placeholder="Asunto">
+
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column columnas-contacto">
+
+              <label for="mensjae">Mensaje</label>
+              <textarea type="text" name="mensaje" id="mensaje"></textarea>
+
+              <input type="submit" name="Enviar" class="boton">
+
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
 
   </section>
   <!--Fin-de-Contacto-->
 
 
-  <footer>
+  <footer id="footer">
     <nav>
       <a href="https://www.behance.net/antonellaherrera" target="_blank">
         <!--SEO-->
@@ -258,10 +311,20 @@
     <div class="creditos">Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect"
         title="Pixel perfect" target="_blank">Pixel perfect</a> from <a href="https://www.flaticon.es/" title="Flaticon"
         target="_blank">www.flaticon.es</a></div>
-
+    <a href='https://www.freepik.es/fotos/fondo' class="creditos">Foto de Fondo creado por tirachardz -
+      www.freepik.es</a>
     <p class="firma-de-cierre"> @AntonellaHerrera </p>
 
   </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
 
 </body>
 

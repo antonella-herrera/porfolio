@@ -5,9 +5,11 @@
 }
 
 /*import basicos*/
+@import 'padding';
 @import 'paleta';
 @import 'text';
 @import 'botones';
+@import 'backgraund';
 
 
 
@@ -20,20 +22,23 @@
 @import 'secciones/contacto';
 @import 'secciones/footer';
 
+
+
+
 /*import-secciones-porfolio*/
 @import 'secciones/paginasporfolio';
 
 
-@import 'animaciones';
-
 /*resposive*/
 @import 'resposive';
 
-section{
-    padding:70px;
-}
-section{
+
 img{
-    border-radius:50px;
+    margin: 10px 0;
+
 }
+
+.container{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }

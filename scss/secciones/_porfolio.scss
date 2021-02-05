@@ -1,11 +1,13 @@
-@import '../paleta';
+
 
 #porfolio{
-    background-color: $color-primario;
-    img{
-        margin:15px;
-    }
-    
-    
 
+    padding-top: 40px;
+    background-color: $color-teciario;
+    a{
+        img{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
 }

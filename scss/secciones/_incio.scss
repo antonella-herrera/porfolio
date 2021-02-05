@@ -1,32 +1,9 @@
-@import '../text';
-@import '../paleta';
 
-#inicio{
-    background-color:$color-primario;
-    height: 100vh;
-    
+.p-inico{ 
+  margin: 10px;
+  font-size: 1em;
+font-weight: 500;}
 
-}
-
-.p-dg-dw{ 
-    color:$color-secundario;
-    size: 20px;
-    text-align: center;
-}
-.incio-h2{
-    color:$color-secundario;
-    text-align: center;
-}
-
-.inico-botones{
-    display: flex;
-}
-
-.inico-h2{
-    font-size: 5em ;
-
-}
-
-.inicio-p{
-    color:$color-secundario;
+.div-inico-botones{
+  margin: 20px;
 }

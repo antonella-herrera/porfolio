@@ -4,37 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--bootstrap link-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <!--css link-->
+    <!--Linsk Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+    
+
+    <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Tipografía y sistemas de identidad</title>
+    <title>Document</title>
 </head>
 
 <body>
-    <!--js link-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
-        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
-        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
-    </script>
-
-
-    <!--header-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top header-navmenu">
+        <nav class="navbar navbar-expand-lg navbar-dark header-navmenu fixed-top">
             <a href="index.html">
                 <img src="iconosylogo/logo.svg" width="30" height="30" alt="Logo">
             </a>
             <!--Menu-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav menu">
                     <li>
                         <a href="index.html#inicio" class="nav-a">Incio</a>
@@ -46,9 +42,6 @@
                         <a href="index.html#porfolio" class="nav-a dropdown">Porfolio</a>
                     </li>
                     <li>
-                        <a href="index.html#skills" class="nav-a">Skills</a>
-                    </li>
-                    <li>
                         <a href="index.html#contacto" class="nav-a">Contacto</a>
                     </li>
                 </ul>
@@ -56,109 +49,229 @@
             <!--Fin-del-Menu-->
         </nav>
     </header>
-
-    <!--Incio-->
-    <section class="inicio-pag-porfolio">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img src="imagenes/HINDHUNTER3.jpg" alt="">
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <p> Cátedra Gabriele Nivel 1 </p>
-                <h2>TIPOGRAFÍAS Y SISTEMAS DE IDENTIDAD VISUAL</h2>
-                <h2 class="h2-porfolio">PORFOLIO</h2>
-                <a href=""><button>Mira el trabajo</button></a>
-                <a href="index.html#Contacto"><button class="boton-contacto">Contactame</button></a>
-            </div>
+    <!--Inicio-->
+    <section id="inicio-tipografia-sistemas-visuales" class="inicos-de-landing backgraunds">
+        <div class="overlay-incio inicio-porfolio">
+        <h2>Tipografía y sistemas de identidad visual</h2>
+        <h3>Cátedra Cosgaya Nivel 2</h3>
+        <div>
+            <button class="botom-blanco"><a href="#trabajo-tipografia-identidad-visual">Ver el trabajo</a></button>
+            <button class="botom-negro"><a href="index.html#contacto">Contactame</a></button>
         </div>
-    </section>
-    <!--Fin Incio-->
-
-    <!--Comienzo de mindhunter-->
-    <section>
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <h2>DESECHANDO HÁBITOS</h2>
-                <h4>Tipografía y sistemas de identidad</h4>
-                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae natus fugiat alias quis laudantium
-                    ex perspiciatis nihil saepe quidem sapiente, nam voluptatum.
-                    Adipisci totam impedit quidem illo, consequatur fugiat corrupti.</p>
-                <h5>Tipografía</h5>
-                <p> Rubik </p> <p> Montserrat</p>
-                <h5>Paleta</h5>
-                <div>
-                <img src="" alt="" class="img-fluid">
-                <img src="" alt="" class="img-fluid">
-                <img src="" alt="" class="img-fluid">
-            </div>
-
-
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img src="" alt="">
-            </div>
         </div>
-    </section>
-    <!--Paleta de colores -->
-    <section>
-
+        
     </section>
 
-    <!--Slider cuaderno-->
-    <section class="seccion-de-carrusel">
-        <div id="carouselExampleSlidesOnly" class="carousel slide porfolio-carrusel" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="imagenes/Web 1920 – 16.jpg" class="d-block w-100 carrusel-img" alt="">
+    <!--
+
+    </section>
+    -->
+    <!--Fin Inicio-->
+
+    <!--Explicaion del trabajo-->
+    <section id="trabajo-tipografia-identidad-visual" class="desechando-habitos">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column">
+                    <img src="imagenes/porfolio-desechando-habitos/DECHANDO-HABITOS.jpg" alt="Logo de la campaña"
+                        class="img-fluid d-block w-100">
                 </div>
-                <div class="carousel-item">
-                    <img src="imagenes/Web 1920 – 16.jpg" class="d-block w-100 carrusel-img" alt="">
-                </div>
-                <div class="carousel-item">
-                    <img src="imagenes/Web 1920 – 16.jpg" class="d-block w-100 carrusel-img" alt="">
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 columna-texto-porfolio">
+                    <div class="">
+                        <h4>TIPOGRAFÍA Y SITEMAS VISUALES</h4>
+                        <p>Trabajo realizados para la Catedra Cosgaya. Este consistía en diseñar un sistema
+                            de piezas de comunicación para una campaña o acción dentro del marco del diseño
+                            social en grupo. En nuestro caso elegimos una campaña con enfoque en el medioambiente.
+                            Específicamente decidimos informar sobre el uso excesivo de plásticos e involucrar en
+                            el uso responsable de productos con plásticos de un solo uso. Generando un cambio de
+                            hábitos.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+
     </section>
-    <!--Fin Slider cuaderno-->
-    <!--poster-->
-    <section>
-        <img src="" alt="Poster">
-    </section>
+    <!--Fin Explicaion del trabajo-->
 
-    <!--footer-->
-    <footer>
-        <nav>
-            <a href="https://www.behance.net/antonellaherrera" target="_blank">
-                <!--SEO-->
-                <img src="redes/behance.svg" alt="Enlace para dirigirse Behance">
-            </a>
-            <a href="https://www.instagram.com/" target="_blank">
-                <!--SEO-->
-                <img src="redes/instagram.svg" alt="Enlase para dirigirse a Intragram">
-            </a>
-            <a href="https://github.com/antonella-herrera" target="_blank">
-                <!--SEO-->
-                <img src="redes/github.svg" alt="Enlace para dirigirse a GitHub">
-            </a>
-            </a>
-            <a href="https://www.linkedin.com/in/antonella-herrera/" target="_blank">
-                <!--SEO-->
-                <img src="redes/linkedin.svg" alt="Enlace para dirigirse a Linkedin">
-            </a>
-        </nav>
-        <div class="creditos">Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik"
-                title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a>
+    <!--Instagram-->
+    <section class="fondo-rosa">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <img src="imagenes/porfolio-desechando-habitos/Mockupcelular-tipografia-cosgaya-instagram.jpg"
+                        alt="Pantalla de celular con el instagram de la campaña" class="img-fluid d-block w-100">
+                </div>
+
+                <!--Carrusel-->
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-wrap flex-column ">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100"
+                                    src="imagenes/porfolio-desechando-habitos/Cogaya-instagram-car.jpg"
+                                    alt="Posteo de instagram para la campaña.">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="imagenes/porfolio-desechando-habitos/Cogaya-instagram-carrusel2.jpg"
+                                    alt="Posteo de instagram para la campaña.">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Fin Carrusel-->
+            </div>
         </div>
-        <div class="creditos">Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect"
-                title="Pixel perfect" target="_blank">Pixel perfect</a> from <a href="https://www.flaticon.es/"
-                title="Flaticon" target="_blank">www.flaticon.es</a></div>
 
-        <p class="firma-de-cierre"> @AntonellaHerrera </p>
+    </section>
+    <!-- fin instagram-->
 
-    </footer>
+    <!-- Tarjetas-->
+    <section class="desechando-habitos ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card border-0 rounded-0">
+                        <img class="card-img-top imagenes-tarjetas" src="imagenes/porfolio-desechando-habitos/Carta-vasos-de-plastico.jpg"
+                            alt="Carta de vasos de plástico" >
+                        <div class="card-body tarjetas-blancas">
+                            <p class="card-text">Si queres tomar un café o té, utilizá una
+                                taza reutilizable.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card border-0 rounded-0 ">
+                        <img class="card-img-top imagenes-tarjetas" src="imagenes/porfolio-desechando-habitos/Carta-bolsas-plastico.jpg"
+                            alt="Carta de bolsas de plástico">
+                        <div class="card-body tarjetas-rosas">
+                            <p class="card-text">Te recomendamos el uso de bolsas de
+                                tela reutilizables.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card border-0 rounded-0">
+                        <img class="card-img-top imagenes-tarjetas" src="imagenes/porfolio-desechando-habitos/Carta-sorbetes.jpg"
+                            alt="Carta de sorbetes de plástico">
+                        <div class="card-body  tarjetas-blancas">
+                            <p class="card-text">Sorbetes de papel, aluminio, acero
+                                inoxidable.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card border-0 rounded-0">
+                        <img class="card-img-top imagenes-tarjetas" src="imagenes/porfolio-desechando-habitos/Carta-botellas.jpg"
+                            alt="Carta de botellas de plástico ">
+                        <div class="card-body tarjetas-rosas">
+                            <p class="card-text">¿Todavía no tenes tu botella
+                                reutilizable? ¡Hay tantas opciones!.</p>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!--fin de trajetas-->
+
+    <section class="fondo-rosa">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <img src="imagenes/porfolio-desechando-habitos/Mockup-Botella-Tipografia-Cosgaya.jpg"
+                            alt="Botella para la campaña, color verde agua con la frase: chau plastico. " class="img-fluid d-block w-100">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <img src="imagenes/porfolio-desechando-habitos/Mockup-Remera-Tipografia-Cosgaya.jpg"
+                            alt="Remera para la campañar, color verde con la frase: soltá lo toxico a la plastico y a tu ex ." class="img-fluid d-block w-100">
+                    </div>
+
+        </section>
+        <!--mockup-->
+
+        <section class="frase-final-porfolio desechando-habitos">
+            <p>Te asegurmos que lo podes reemplazar.</p>
+            <p>Sacalo de tu vida.</p>
+            <p>#DesechandoHabitos</p>
+                <a href="https://www.instagram.com/desechandohabitos/" target="_blank">
+
+                    <img src="redes/instagram.svg" alt="Enlase para dirigirse al Intragram de la campaña">
+                </a>
+            
+
+        </section>
 
 
+        <!--otros trabajos-->
+        <section class="cierra-de-porfolio">
+            <h4 class="h-blanco ">
+                ¡GRACIAS POR MIRAR!
+            </h4>
+            <button class="botom-blanco"><a href="index.html#porfolio">Otros trabajos</a></button>
+
+
+        </section>
+        <!---->
+
+
+        <footer>
+            <nav>
+                <a href="https://www.behance.net/antonellaherrera" target="_blank">
+                    
+                    <img src="redes/behance.svg" alt="Enlace para dirigirse Behance">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                   
+                    <img src="redes/instagram.svg" alt="Enlase para dirigirse a Intragram">
+                </a>
+                <a href="https://github.com/antonella-herrera" target="_blank">
+                    
+                    <img src="redes/github.svg" alt="Enlace para dirigirse a GitHub">
+                </a>
+                </a>
+                <a href="https://www.linkedin.com/in/antonella-herrera/" target="_blank">
+                   
+                    <img src="redes/linkedin.svg" alt="Enlace para dirigirse a Linkedin">
+                </a>
+            </nav>
+            <div class="creditos">Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik"
+                    title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/"
+                    title="Flaticon">www.flaticon.es</a>
+            </div>
+            <div class="creditos">Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect"
+                    title="Pixel perfect" target="_blank">Pixel perfect</a> from <a href="https://www.flaticon.es/"
+                    title="Flaticon" target="_blank">www.flaticon.es</a></div>
+            <div class="creditos">Mockup psd created by
+                <a href="https://www.freepik.com/psd/mockup"> riandra</a> - <a
+                    href="https://www.freepik.com/">www.freepik.com</a>
+            </div>
+
+
+
+            <p class="firma-de-cierre"> @AntonellaHerrera </p>
+
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
