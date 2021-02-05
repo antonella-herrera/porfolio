@@ -1,18 +1,432 @@
-/* Error: expected "{".
- *     ,
- * 112 | ¡
- *     |  ^
- *     '
- *   scss\secciones\_paginasporfolio.scss 112:2  @import
- *   scss\style.scss 29:9                        root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a     \2577 \a 112 \2502  ¡\d\a     \2502   ^\a     \2575 \a   scss\\secciones\\_paginasporfolio.scss 112:2  @import\a   scss\\style.scss 29:9                        root stylesheet';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/*import basicos*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  color: #000111;
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1em;
+  margin: 50px 0;
+}
+
+.index-h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.h-blanco {
+  color: #fffff1;
+  padding: 20px 0 30px 0;
+}
+
+button {
+  background-color: #ffcfff;
+  border: none;
+  margin: 10px;
+  padding: 10px 20px;
+}
+button img {
+  width: 50px;
+}
+
+.boton-contacto {
+  background-color: #fffff1;
+  border: none;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.botom-blanco {
+  background-color: #fffff1;
+}
+.botom-blanco a:link,
+.botom-blanco a:visited {
+  color: #000111;
+  text-decoration: none;
+}
+
+.botom-negro {
+  background-color: #000111;
+}
+.botom-negro a {
+  color: #ffcfff;
+}
+.botom-negro a:link,
+.botom-negro a:visited {
+  text-decoration: none;
+}
+
+.botom-rosa a:link,
+.botom-rosa a:visited {
+  color: #000111;
+  text-decoration: none;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.boton-top {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-decoration: none;
+  color: #000111;
+}
+
+a img:hover {
+  transform: scale(1.05);
+}
+
+#inicio {
+  background-image: url(../imagenes/INDEX/fondo-inico.jpg);
+  position: relative;
+}
+
+#inicio-sistemas-baja-complejidad {
+  background-image: url(../imagenes/porfolio-mindhunter/portada-mindhunter.jpg);
+}
+
+#inicio-tipografia-sistemas-visuales {
+  background-image: url(../imagenes/porfolio-desechando-habitos/web-responsive-desechando-habitos.jpg);
+}
+
+#tipografia-interfaces {
+  background-image: url(../imagenes/porfolio-rompiendo-moldes/mockup-resposive-web-movile-rompiendo-moldes.jpg);
+}
+
+#interfaces-espaciales {
+  background-image: url(../imagenes/Porfolio-interfaces/portada-interfaces-espaciales-loginotti.jpg);
+}
+
+.inicos-de-landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+.inicos-de-landing div {
+  justify-content: center;
+}
+.inicos-de-landing h2 {
+  font-size: 3em;
+}
+
+.backgraunds {
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: 100vh;
+}
+
+.fondo-rosa {
+  background-color: #ffcfff;
+}
+.fondo-rosa h3 {
+  color: black;
+}
+
+/*import-secciones*/
+header {
+  display: flex;
+}
+header nav {
+  background-color: #000111;
+}
+header nav a:link, header nav a:visited {
+  color: #fffff1;
+  text-decoration: none;
+  margin: 10px;
+}
+header nav a:hover {
+  color: #ffcfff;
+}
+header a img {
+  margin: 0;
+}
+
+.p-inico {
+  margin: 10px;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.div-inico-botones {
+  margin: 20px;
+}
+
+.columna-texto-sobremi {
+  padding: 30px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.columna-imagen-sobremi {
+  padding: 50px;
+}
+
+.img-sobremi {
+  width: 400px;
+}
+
+#sobre-mi {
+  background-color: #ffcfff;
+}
+
+#porfolio {
+  padding-top: 40px;
+  background-color: #ffcfff;
+}
+#porfolio a img {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+
+#skills {
+  background-color: #000111;
+  padding-top: 20px;
+}
+#skills h3 {
+  color: #fffff1;
+  font-weight: 500;
+}
+
+.skills-img {
+  width: 70px;
+}
+
+#contacto {
+  background-color: #fffff1;
+  padding: 40px 0;
+}
+
+.columnas-contacto {
+  padding: 10px 20px;
+}
+
+form input, form textarea {
+  background-color: #fffff1;
+}
+form input[type=text],
+form input[type=email] {
+  padding: 10px 20px;
+  font-size: 14px;
+  margin: 10px 0;
+  border: 1px solid #ffcfff;
+}
+form input[type=submit] {
+  border: none;
+  background-color: #ffcfff;
+  padding: 5px;
+}
+form input[type=submit]:hover {
+  transform: scale(1.02);
+}
+form textarea {
+  padding: 70px 20px;
+  font-size: 14px;
+  margin: 30px 0;
+  border: 1px solid #ffcfff;
+}
+
+.firma-de-cierre {
+  font-weight: lighter;
+  font-size: 14px;
+  color: #fffff1;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+  background-color: #000111;
+  color: #ffcfff;
+}
+footer nav {
+  margin: 20px;
+}
+footer nav a img:hover {
+  transform: scale(1.05);
+  text-align: center;
+}
+footer nav a img {
+  height: 20px;
+  text-decoration: none;
+  margin: 10px;
+}
+footer a:link, footer a:visited {
+  text-decoration: none;
+  color: #fffff1;
+}
+footer a:hover {
+  color: #ffcfff;
+}
+
+.creditos {
+  font-size: 14px;
+  font-weight: lighter;
+  color: #fffff1;
+}
+
+/*import-secciones-porfolio*/
+.porfolio-img-logo {
+  width: 500px;
+}
+
+.inicio-porfolio h2 {
+  font-weight: 700;
+}
+.inicio-porfolio h3 {
+  font-weight: 600;
+}
+
+.columna-texto-porfolio {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*nurvo*/
+.frase-final-porfolio {
+  text-align: center;
+  padding: 50px;
+}
+.frase-final-porfolio a img:hover {
+  transform: scale(1.05);
+  text-align: center;
+}
+.frase-final-porfolio a img {
+  height: 30px;
+}
+
+.rompiendo-moldes {
+  background-color: #1e1f3d;
+  color: #fffff1;
+}
+
+.desechando-habitos {
+  background-color: #E6E6E6;
+  color: #000111;
+}
+
+.mindHunter,
+.el-laberinto {
+  background-color: #000111;
+  color: #fffff1;
+}
+
+.columan-imagenes-porfolio {
+  display: flex;
+  justify-content: center;
+}
+
+a img {
+  height: 50px;
+}
+
+.cierra-de-porfolio {
+  background-color: #000111;
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
+.h-blanco,
+.p-blanco {
+  color: #fffff1;
+}
+
+.tarjetas-rosas {
+  background-color: #ffcfff;
+  padding: 30px 40px;
+}
+
+.tarjetas-blancas {
+  background-color: #fffff1;
+  padding: 30px 40px;
+}
+
+.image-posters {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.imagenes-tarjetas {
+  margin: 0;
+}
+
+/*resposive*/
+@media only screen and (max-width: 576px) {
+  h1 {
+    font-size: 21px;
+  }
+
+  .inicos-de-landing h2 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h4 {
+    font-size: 2em;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  .inicos-de-landing h2 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+}
+img {
+  margin: 10px 0;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
